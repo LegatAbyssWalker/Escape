@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{45661ac4-6f85-4801-a9a1-7a76a21b2dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Display">
+      <UniqueIdentifier>{dfb0d218-0de6-4aed-9254-29cf925650d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models">
+      <UniqueIdentifier>{d9951610-bb16-44ca-a7b6-0ce3491ccaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{62cb3e2e-61b7-41d2-92c5-eb1f99b5a64e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shaders">
+      <UniqueIdentifier>{7baee311-5451-4e51-b6f4-b5404dd2538d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\States">
+      <UniqueIdentifier>{10b12c5f-22c9-4741-9063-a04386db5e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utilities">
+      <UniqueIdentifier>{eb00a8a0-cbdf-4b21-a934-517bafca555b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\Functionality">
+      <UniqueIdentifier>{f9255332-df9b-451c-8e75-a1ff90955daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\OBJ">
+      <UniqueIdentifier>{f0c244af-4008-4e2b-85b9-6c92d4ce4cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\OBJ\World">
+      <UniqueIdentifier>{2c543afe-ebaa-48cd-913b-7c20e94f96a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Models\OBJ\World\Entities">
+      <UniqueIdentifier>{1c120a14-c55c-4c1b-95db-255a9b597340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\States\Functionality">
+      <UniqueIdentifier>{eb1ea932-f6d1-4285-aae2-2ac2b39238ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\States\GameStates">
+      <UniqueIdentifier>{b1013d49-adab-4129-b7c5-0c47e9edff3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Managers">
+      <UniqueIdentifier>{f7d13f86-9a90-4802-900b-88dc644f735b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{9e274c6f-bd6f-48a5-980c-771781861f73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>src\Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>src\Models\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>src\Models\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>src\States\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>src\States\Functionality</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingState.cpp">
+      <Filter>src\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Officers.cpp">
+      <Filter>src\Models\OBJ\World\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="StreetManager.cpp">
+      <Filter>src\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>src\Models\OBJ\World\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>src\States\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMenuState.cpp">
+      <Filter>src\States\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLWindow.h">
+      <Filter>src\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>src\Models\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>src\Models\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>src\Models\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLocations.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>src\States\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>src\States\Functionality</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingState.h">
+      <Filter>src\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Officers.h">
+      <Filter>src\Models\OBJ\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="StreetManager.h">
+      <Filter>src\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src\Models\OBJ\World\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>src\States\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMenuState.h">
+      <Filter>src\States\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

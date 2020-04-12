@@ -40,6 +40,10 @@ void PlayingState::updateEvents() {
 		auto keyCode = sfEvent.key.code;
 		auto wheelCode = sfEvent.mouseWheelScroll.delta;
 		switch (sfEvent.type) { 
+			case sf::Event::Resized:
+				this->window.setViewPort(glm::vec2(0), glm::vec2(sfEvent.size.width, sfEvent.size.height));
+				break;
+
 			case sf::Event::Closed:
 				machine.quit();
 				break;  

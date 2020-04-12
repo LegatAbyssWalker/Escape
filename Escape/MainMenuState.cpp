@@ -26,6 +26,10 @@ void MainMenuState::updateEvents() {
 	while (window.getWindow().pollEvent(sfEvent)) {
 		auto keyCode = sfEvent.key.code;
 		switch (sfEvent.type) {
+			case sf::Event::Resized:
+				this->window.setViewPort(glm::vec2(0), glm::vec2(sfEvent.size.width, sfEvent.size.height));
+				break;
+
 			case sf::Event::Closed:
 				machine.quit();
 				break;

@@ -26,7 +26,8 @@ class GLWindow {
 		void swapBuffers();
 	
 		void setMouseVisible(bool visible);
-		
+		void setViewPort(glm::vec2 origin, glm::vec2 newWidthNewHeight);
+
 		bool isOpen() { return window.isOpen(); }
 		sf::Window& getWindow() { return window; }
 

@@ -34,9 +34,9 @@ void GLWindow::initWindow() {
     }
 
 	glEnable(GL_DEPTH_TEST);
-
-	// Set GL Viewport 
-	glViewport(0, 0, getWindow().getSize().x, getWindow().getSize().y); // Lower left corner should be (0, 0);
+	
+	// Viewport
+	setViewPort(glm::vec2(0), glm::vec2(getWindow().getSize().x, getWindow().getSize().y));
 }
 
 void GLWindow::swapBuffers() {
@@ -45,4 +45,8 @@ void GLWindow::swapBuffers() {
 
 void GLWindow::setMouseVisible(bool visible) {
 	window.setMouseCursorVisible(visible);
+}
+
+void GLWindow::setViewPort(glm::vec2 origin, glm::vec2 newWidthNewHeight) {
+	glViewport(origin.x, origin.y, newWidthNewHeight.x, newWidthNewHeight.y); // Lower left corner should be (0, 0);
 }

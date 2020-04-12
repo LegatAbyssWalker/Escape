@@ -24,6 +24,6 @@ You spawn inside your house hiding in a bush to reflect detection. You have to l
 * Youtube Channel                
   - » www.YouTube.com/LegitMegaWalls-52
 * Download the game!
-  - » https://www.youtube.com/watch?v=8Pb7m-RdAPw
+  - » https://legatabysswalker.itch.io/escape-the-street
 * Github                         
   - » https://github.com/LegatAbyssWalker
